@@ -1,0 +1,67 @@
+\hypertarget{calci_8h}{}\doxysection{calci.\+h File Reference}
+\label{calci_8h}\index{calci.h@{calci.h}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{calci_8h_ad9db71ac1522ff4f6abaf48c6d7c1499}{calculator}} (int choice, int num1, int num2)
+\item 
+int \mbox{\hyperlink{calci_8h_ad3090520f83f07c8745e95ccd4903106}{add}} (int num1, int num2)
+\item 
+int \mbox{\hyperlink{calci_8h_a2d6431c1cdb15536766d324b8799b2ea}{sub}} (int num1, int num2)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{calci_8h_ad3090520f83f07c8745e95ccd4903106}\label{calci_8h_ad3090520f83f07c8745e95ccd4903106}} 
+\index{calci.h@{calci.h}!add@{add}}
+\index{add@{add}!calci.h@{calci.h}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily int add (\begin{DoxyParamCaption}\item[{int}]{num1,  }\item[{int}]{num2 }\end{DoxyParamCaption})}
+
+Addition of two numbers 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em num1} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em num2} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns sum of the two numbers 
+\end{DoxyReturn}
+\mbox{\Hypertarget{calci_8h_ad9db71ac1522ff4f6abaf48c6d7c1499}\label{calci_8h_ad9db71ac1522ff4f6abaf48c6d7c1499}} 
+\index{calci.h@{calci.h}!calculator@{calculator}}
+\index{calculator@{calculator}!calci.h@{calci.h}}
+\doxysubsubsection{\texorpdfstring{calculator()}{calculator()}}
+{\footnotesize\ttfamily int calculator (\begin{DoxyParamCaption}\item[{int}]{choice,  }\item[{int}]{num1,  }\item[{int}]{num2 }\end{DoxyParamCaption})}
+
+Calculator with addition and subtraction 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em choice} & 0-\/ for addition, 1-\/ for subtraction \\
+\hline
+\mbox{\texttt{ in}}  & {\em num1} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em num2} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns either sum or difference of the two numbers based on user choice 
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+-\/1 returned if choice is invalid 
+\end{DoxyNote}
+\mbox{\Hypertarget{calci_8h_a2d6431c1cdb15536766d324b8799b2ea}\label{calci_8h_a2d6431c1cdb15536766d324b8799b2ea}} 
+\index{calci.h@{calci.h}!sub@{sub}}
+\index{sub@{sub}!calci.h@{calci.h}}
+\doxysubsubsection{\texorpdfstring{sub()}{sub()}}
+{\footnotesize\ttfamily int sub (\begin{DoxyParamCaption}\item[{int}]{num1,  }\item[{int}]{num2 }\end{DoxyParamCaption})}
+
+Subtraction of two numbers 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em num1} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em num2} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns difference of the two numbers 
+\end{DoxyReturn}

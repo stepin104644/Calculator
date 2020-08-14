@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1597052165 source:c:\users\soumya\desktop\stepin c\assignments\calculator\unity\unity.c
+	"unity.h"
+	<stddef.h>
+	<avr/pgmspace.h>
+
+1597052165 c:\users\soumya\desktop\stepin c\assignments\calculator\unity\unity.h
+	"unity_internals.h"
+
+1597052165 c:\users\soumya\desktop\stepin c\assignments\calculator\unity\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1597250722 source:c:\users\soumya\desktop\stepin c\assignments\calculator\src\calci.c
+	"calci.h"
+
+1597303303 c:\users\soumya\desktop\stepin c\assignments\calculator\inc\calci.h
+
+1597251134 source:c:\users\soumya\desktop\stepin c\assignments\calculator\test\testcalci.c
+	"unity.h"
+	"calci.h"
+
+1597251071 source:c:\users\soumya\desktop\stepin c\assignments\calculator\main.c
+	"TestCalci.h"
+
+1597241550 c:\users\soumya\desktop\stepin c\assignments\calculator\test\testcalci.h
+
